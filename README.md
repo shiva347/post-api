@@ -28,8 +28,8 @@ pip install -r requirements.txt
 ```
 
 
-** Now, set up the PostgreSQL database on your system if it's not already configured, and replace 'NAME', 'USER', and 'PASSWORD' with your own valuess.
-If you haven't set it up yet, you can add the following database configuration. **
+**Now, set up the PostgreSQL database on your system if it's not already configured, and replace 'NAME', 'USER', and 'PASSWORD' with your own valuess.
+If you haven't set it up yet, you can add the following database configuration.**
 ```
 DATABASES = {
     'default': {
