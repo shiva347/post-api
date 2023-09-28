@@ -48,5 +48,5 @@ python manage.py migrate
 ```
 Runserver 
 ```
-python mange.py run server
+python manage.py runserver
 ```
