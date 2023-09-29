@@ -81,3 +81,11 @@ class PostListSerializer(serializers.ModelSerializer):
         model = models.Post
         fields = ('id', 'author_name', 'title', 'content', 'image', 'posted_on')
 
+
+class UserListSerializer(serializers.ModelSerializer):
+    """ This serializer get list/details of post."""
+
+    class Meta:
+        model = models.User
+        fields = ('id', 'username', 'email', 'contact_number')
+

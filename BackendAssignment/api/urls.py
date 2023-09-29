@@ -6,4 +6,5 @@ urlpatterns = [
     path('login/', views.UserLogIn.as_view(), name='login'),
     path('post_create/', views.PostCreateView.as_view(), name='post-create'),
     path('post_list/', views.PostListView.as_view(), name='post-list'),
+    path('user_list/', views.UerListByDateView.as_view(), name='user-list'),
 ]
